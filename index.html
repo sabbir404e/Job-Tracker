@@ -29,18 +29,18 @@
             <h1 class="text-2xl font-bold">Job Application Tracker</h1>
         </div>
 
-        <div class="card-container01 flex gap-4">
-           <div class="card-01 bg-base-50 shadow-sm w-[360px]">
+        <div class="card-container01 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+           <div class="card-01 bg-base-50 shadow-sm rounded-xl p-4">
              <p class="p-3">Total</p>
-             <p class="font-bold p-3">8</p>
+             <p class="font-bold text-xl p-3">8</p>
            </div>
-           <div class="card-02 bg-base-50 shadow-sm w-[360px]">
+           <div class="card-02 bg-base-50 shadow-sm rounded-xl p-4">
              <p class="p-3">Interview</p>
-             <p class="text-green-500 p-3">0</p>
+             <p class="text-green-500 text-xl p-3">0</p>
            </div>
-           <div class="card-03 bg-base-50 shadow-sm w-[360px]">
+           <div class="card-03 bg-base-50 shadow-sm rounded-xl p-4">
              <p class="p-3">Rejected</p>
-             <p class="text-red-500 p-3">0</p>
+             <p class="text-red-500 text-xl p-3">0</p>
            </div>
         </div>
      </section>
@@ -49,22 +49,22 @@
       <section id="second-part" class="w-11/12 mx-auto m-5 space-y-5">
         <!-- first portion -->
         <div class="mt-2">
-          <div class="flex justify-between">
+          <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
               <h1 class="text-2xl font-bold w-full">Available Jobs</h1>
             <p class="text-gray-700 w-full">8 jobs</p>
           </div>
         </div>
 
-        <div class="card-actions">
+        <div class="card-actions flex-wrap gap-3">
            <button class="btn btn-primary w-20">All</button>
            <button class="btn w-20">InterView</button>
            <button class="btn w-20">Rejected</button>
       </div>
-         <!-- second portion -->
+         <!-- second portion all cards-->
           <div class="card-1 bg-base-100 space-y-5">
-  <div class="card-body w-[1110px] shadow-sm">
+  <div class="card-body shadow-sm">
   
-      <div class="flex justify-between">
+      <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-3">
         <div><h2 class="card-title text-xl font-bold">Mobile First Corp</h2>
         <h3 class="text-[16px]">React Native Developer</h3>
        </div>
@@ -81,9 +81,9 @@
   </div>
 </div>
           <div class="card-2 bg-base-100 space-y-5">
-  <div class="card-body w-[1110px] shadow-sm">
+  <div class="card-body shadow-sm">
   
-      <div class="flex justify-between">
+      <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-3">
         <div><h2 class="card-title text-xl font-bold">WebFlow Agency</h2>
         <h3 class="text-[16px]">Web Designer & Developer</h3>
        </div>
@@ -100,9 +100,9 @@
   </div>
 </div>
           <div class="card-3 bg-base-100 space-y-5">
-  <div class="card-body w-[1110px] shadow-sm">
+  <div class="card-body shadow-sm">
   
-      <div class="flex justify-between">
+      <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-3">
         <div><h2 class="card-title text-xl font-bold">DataViz Solutions</h2>
         <h3 class="text-[16px]">Data Visualization Specialist</h3>
        </div>
@@ -119,9 +119,9 @@
   </div>
 </div>
           <div class="card-4 bg-base-100 space-y-5">
-  <div class="card-body w-[1110px] shadow-sm">
+  <div class="card-body shadow-sm">
   
-      <div class="flex justify-between">
+      <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-3">
         <div><h2 class="card-title text-xl font-bold">CloudFirst Inc</h2>
         <h3 class="text-[16px]">Backend Developer</h3>
        </div>
@@ -138,9 +138,9 @@
   </div>
 </div>
           <div class="card-5 bg-base-100 space-y-5">
-  <div class="card-body w-[1110px] shadow-sm">
+  <div class="card-body shadow-sm">
   
-      <div class="flex justify-between">
+      <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-3">
         <div><h2 class="card-title text-xl font-bold">Innovation Labs</h2>
         <h3 class="text-[16px]">UI/UX Engineer</h3>
        </div>
@@ -157,9 +157,9 @@
   </div>
 </div>
           <div class="card-6 bg-base-100 space-y-5">
-  <div class="card-body w-[1110px] shadow-sm">
+  <div class="card-body shadow-sm">
   
-      <div class="flex justify-between">
+      <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-3">
         <div><h2 class="card-title text-xl font-bold">MegaCorp Solutions</h2>
         <h3 class="text-[16px]">JavaScript Developer</h3>
        </div>
@@ -176,9 +176,9 @@
   </div>
 </div>
           <div class="card-7 bg-base-100 space-y-5">
-  <div class="card-body w-[1110px] shadow-sm">
+  <div class="card-body shadow-sm">
   
-      <div class="flex justify-between">
+      <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-3">
         <div><h2 class="card-title text-xl font-bold">StartupXYZ</h2>
         <h3 class="text-[16px]">Full Stack Engineer</h3>
        </div>
@@ -195,9 +195,9 @@
   </div>
 </div>
           <div class="card-8 bg-base-100 space-y-5">
-  <div class="card-body w-[1110px] shadow-sm">
+  <div class="card-body shadow-sm">
   
-      <div class="flex justify-between">
+      <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-3">
         <div><h2 class="card-title text-xl font-bold">TechCorp Industries</h2>
         <h3 class="text-[16px]">Senior Frontend Developer</h3>
        </div>
@@ -218,7 +218,7 @@
 
       <!-- Section 03 -->
        <section id="third-part" class="w-11/12 mx-auto mt-5 space-y-5">
-           <div class="no-jobs w-[1110px] h-[400px]  bg-base-100 shadow-sm flex justify-center pt-[150px]">
+           <div class="no-jobs bg-base-100 shadow-sm rounded-xl min-h-[300px] flex flex-col items-center justify-center text-center p-6">
             <div class="">
                  <div class="flex justify-center"><img src="assets/jobs.png" alt=""></div>
             <div class="flex justify-center"><p>No jobs available</p></div>
