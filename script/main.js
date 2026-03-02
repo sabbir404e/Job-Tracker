@@ -13,7 +13,10 @@ for(const t of tabs){
         tabName.classList.add(...tabActive);
     }
     else{
+        tabName.classList.remove(...tabActive);
         tabName.classList.add(...tabInactive);
     }
 }
 }
+switchTab(currentTab); //globally tab added
+
